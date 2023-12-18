@@ -1,27 +1,96 @@
-# Employeemanagerapp
+# Employee Manager Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.5.
+This is a web application that allows you to manage employees. It is built with Angular for the frontend and Spring Boot for the backend.
 
-## Development server
+!Employee Manager Angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+!License: MIT
+!Forks: 1
 
-## Code scaffolding
+## Table of Contents
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- About the Fork
+- What I Learned
+- How to Use
+- How to Contribute
+- Contact
+- References
 
-## Build
+## About the Fork
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+This project is a fork of the Employee Manager App by Get Arrays, a YouTube channel that teaches web development with Java and Angular. The original project is licensed under the MIT License.
 
-## Running unit tests
+A fork is a copy of a repository that allows you to freely experiment with changes without affecting the original project. You can make your own changes, add new features, fix bugs, or improve the code. You can also sync your fork with the original repository to keep it up to date.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+This fork is not synced with the original repository, as I made some changes and additions to the code. You can see the difference between the commits of this fork and the original repository here.
 
-## Running end-to-end tests
+## What I Learned
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+I learned a lot from the content of the code of the original repository. Some of the things I learned are:
 
-## Further help
+- How to set up an Angular project with the Angular CLI and VS Code.
+- How to use Angular components, services, modules, directives, pipes, and routing.
+- How to use Bootstrap and Font Awesome for styling and icons.
+- How to use HttpClient and RxJS for making HTTP requests and handling asynchronous data.
+- How to use Spring Boot, Hibernate, JPA, and MySQL for creating a REST API and connecting to a database.
+- How to use Postman and Httpie for testing the API endpoints.
+- How to use Git and GitHub for version control and collaboration.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The biggest challenges I faced were:
+
+- Returning the values stored in the database to the user interface. I had to fix some errors in the methods of the employee.service.ts file, such as using the correct URL.
+
+Material to display the error messages.
+
+## How to Use
+
+To use this project, you need to have the following requirements:
+
+- Node.js and npm
+- Angular CLI
+- Java 11+
+- Spring Boot
+- MySQL
+- Postman or Httpie (optional)
+
+To run this project, follow these steps:
+
+1. Clone or download this repository to your local machine.
+3. Open the project folder in VS Code or your preferred code editor.
+4. Open a terminal and navigate to the employeemanagerangular folder.
+5. Run `npm install` to install the dependencies.
+6. Run `ng serve` to start the development server.
+9. Open your browser and go to http://localhost:4200 to see the web application.
+10. You can also use Postman to test the API endpoints at http://localhost:8080/employee/all
+
+## How to Contribute
+
+If you want to contribute to this project, you can follow these steps:
+
+1. Fork this repository to your own GitHub account.
+2. Clone or download your fork to your local machine.
+3. Create a new branch for your feature or bug fix.
+4. Make your changes and commit them with a descriptive message.
+5. Push your branch to your fork.
+6. Create a pull request from your branch to this repository.
+7. Wait for your pull request to be reviewed and merged.
+
+Please follow the code style and conventions of this project, and write clear and concise commit messages. You can also open an issue if you find a bug or have a suggestion.
+
+## Contact
+
+If you have any questions or feedback, you can contact me at:
+
+- Email: contatoalexandresaldanha@gmail.com
+- LinkedIn: https://www.linkedin.com/in/alexandre-saldanha
+
+## References
+
+These are some of the sources that I used to make this project:
+
+- Employee Manager App - Full Stack Angular/Spring Boot Tutorial - YouTube
+- Angular - Documentation
+- Spring Boot - Documentation
+- MySQL - Documentation
+- Postman - Documentation
+
