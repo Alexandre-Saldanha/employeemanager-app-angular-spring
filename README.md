@@ -7,6 +7,7 @@ This is a web application that allows you to manage employees. It is built with 
 
 - About the Fork
 - What I Learned
+- Api code improvements
 - How to Use
 - How to Contribute
 - Contact
