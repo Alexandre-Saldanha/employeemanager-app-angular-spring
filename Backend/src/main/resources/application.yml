@@ -1,12 +1,12 @@
 spring:
-  datasource:
-    password: 
-    url: 
-    username: 
-  jpa:
-    hibernate:
-      ddl-auto: 
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQL5Dialect
-    show-sql: true
+ datasource:
+  password: 
+  url: jdbc:mysql://localhost:3306/employeemanager?serverTimezone=UTC
+  username: 
+ jpa:
+  hibernate:
+   ddl-auto: 
+  properties:
+   hibernate:
+     dialect: org.hibernate.dialect.MySQL8Dialect
+  show-sql: true 
