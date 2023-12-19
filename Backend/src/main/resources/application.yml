@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    password: 
+    url: 
+    username: 
+  jpa:
+    hibernate:
+      ddl-auto: 
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
