@@ -9,6 +9,7 @@ This is a web application that allows you to manage employees. It is built with 
 - What I Learned
 - Api code improvements
 - How to Use
+- Tests
 - How to Contribute
 - Contact
 - References
@@ -75,9 +76,10 @@ To run this project, follow these steps:
 
 This project uses JUnit to run unit tests. The test classes are:
 
-EmployeeResourceTest: tests the API resources related to employees.
-EmployeeServiceTest: tests the business services related to employees.
-UserNotFoundExceptionTest: tests the exception handling when a user is not found.
+- EmployeeResourceTest: tests the API resources related to employees.
+- EmployeeServiceTest: tests the business services related to employees.
+- UserNotFoundExceptionTest: tests the exception handling when a user is not found.
+
 To run the tests, use the command `mvn test`  
 
 ## How to Contribute
