@@ -45,6 +45,7 @@ The biggest challenges I faced were:
 - Added default serial version for Employee and UserNotFoundException classes in the backend rest api.
 - Added Lombok annotations for Employee Class in the backend rest api.
 - Added @Repository annotation for EmployeeRepo class in the backend rest api.
+- Added JUnit test classes with 100% code coverage.
 
 ## How to Use
 
@@ -69,6 +70,15 @@ To run this project, follow these steps:
 8. Run `mvn spring-boot:run` to start the Spring Boot application.
 9. Open your browser and go to http://localhost:4200 to see the Angular web application in action.
 10. You can also use Postman to test the rest API endpoints at http://localhost:8080/employee
+
+## Tests
+
+This project uses JUnit to run unit tests. The test classes are:
+
+EmployeeResourceTest: tests the API resources related to employees.
+EmployeeServiceTest: tests the business services related to employees.
+UserNotFoundExceptionTest: tests the exception handling when a user is not found.
+To run the tests, use the command `mvn test`  
 
 ## How to Contribute
 
