@@ -1,4 +1,4 @@
-# Employee Manager Angular
+# Employee Manager App - Angular | Spring
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This is a web application that allows you to manage employees. It is built with Angular for the frontend and Spring Boot for the backend.
@@ -14,7 +14,7 @@ This is a web application that allows you to manage employees. It is built with 
 
 ## About the Fork
 
-This project is a fork of the Employee Manager App by Get Arrays, a YouTube channel that teaches web development with Java and Angular. The original project is licensed under the MIT License.
+This project is a fork of the Employee Manager App by Get Arrays, a code repository that teaches web development with Java and Angular. The original project is licensed under the MIT License.
 
 A fork is a copy of a repository that allows you to freely experiment with changes without affecting the original project. You can make your own changes, add new features, fix bugs, or improve the code. You can also sync your fork with the original repository to keep it up to date.
 
