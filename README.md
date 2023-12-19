@@ -1,11 +1,7 @@
 # Employee Manager Angular
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This is a web application that allows you to manage employees. It is built with Angular for the frontend and Spring Boot for the backend.
-
-!Employee Manager Angular
-
-!License: MIT
-!Forks: 1
 
 ## Table of Contents
 
@@ -40,7 +36,13 @@ The biggest challenges I faced were:
 
 - Returning the values stored in the database to the user interface. I had to fix some errors in the methods of the employee.service.ts file, such as using the correct URL.
 
-Material to display the error messages.
+- Material to display the error messages.
+
+## API Code Improvements
+
+- Added default serial version for Employee and UserNotFoundException classes in the backend rest api.
+- Added Lombok annotations for Employee Class in the backend rest api.
+- Added @Repository annotation for EmployeeRepo class in the backend rest api.
 
 ## How to Use
 
@@ -56,12 +58,15 @@ To use this project, you need to have the following requirements:
 To run this project, follow these steps:
 
 1. Clone or download this repository to your local machine.
-3. Open the project folder in VS Code or your preferred code editor.
-4. Open a terminal and navigate to the employeemanagerangular folder.
-5. Run `npm install` to install the dependencies.
-6. Run `ng serve` to start the development server.
-9. Open your browser and go to http://localhost:4200 to see the web application.
-10. You can also use Postman to test the API endpoints at http://localhost:8080/employee/all
+2. Open the project folder in VS Code or your preferred code editor.
+3. Open a terminal and navigate to the frontend folder.
+4. Run `npm install` to install the dependencies.
+5. Run `ng serve` to start the development server.
+6. Open another terminal and navigate to the backend folder.
+7. Put your database configuration in properties.yml file using an IDE or a code editor.
+8. Run `mvn spring-boot:run` to start the Spring Boot application.
+9. Open your browser and go to http://localhost:4200 to see the Angular web application in action.
+10. You can also use Postman to test the rest API endpoints at http://localhost:8080/employee
 
 ## How to Contribute
 
