@@ -1,6 +1,8 @@
 # Employee Manager App - Angular | Spring
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+Generated with Angular CLI version 9.1.5.
+
 This is a web application that allows you to manage employees. It is built with Angular for the frontend and Spring Boot for the backend.
 
 ## Table of Contents
