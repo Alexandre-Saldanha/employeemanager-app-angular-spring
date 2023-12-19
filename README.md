@@ -30,6 +30,7 @@ I learned a lot from the content of the code of the original repository. Some of
 - How to use HttpClient and RxJS for making HTTP requests and handling asynchronous data.
 - How to use Spring Boot, Hibernate, JPA, and MySQL for creating a REST API and connecting to a database.
 - How to use Postman and Httpie for testing the API endpoints.
+- How to use Lombok annotations.
 - How to use Git and GitHub for version control and collaboration.
 
 The biggest challenges I faced were:
